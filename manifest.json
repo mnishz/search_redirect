@@ -1,0 +1,24 @@
+{
+
+    "description": "Firefox/Chrome extension to redirect Jira issues ID to on-premises Jira server",
+    "manifest_version": 2,
+    "name": "jira_redirect",
+    "version": "1.0",
+
+    "permissions": [
+        "storage",
+        "webRequest",
+        "webRequestBlocking",
+        "https://www.google.com/"
+    ],
+
+    "background": {
+        "scripts": ["jira_redirect.js"]
+    },
+
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    }
+
+}
