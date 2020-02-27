@@ -3,7 +3,7 @@
     "description": "Firefox/Chrome extension to redirect Jira issues ID to on-premises Jira server",
     "manifest_version": 2,
     "name": "jira_redirect",
-    "version": "1.0",
+    "version": "1.1",
 
     "permissions": [
         "storage",
